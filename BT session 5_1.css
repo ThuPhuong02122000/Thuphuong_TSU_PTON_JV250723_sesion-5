@@ -1,0 +1,25 @@
+button {
+    border-left: 5px groove rgba(77, 142, 21, 0.731);
+    /*viền trái: style(Đường viền lõm vào), màu*/
+
+    /*tại sao là 2 màu khác nhau? vốn dĩ cấu trúc như vậy? 1 màu được không?*/
+
+    border-right: 3px dotted blue;
+    /*phải: chấm*/
+    border-top: 2px solid red;
+    /*trên: liền mạch*/
+    border-bottom: double 4px green;
+    /*dưới: viền kép*/
+}
+
+/*border-style
+•	none: Không có đường viền.
+•	solid: Đường viền liền mạch.
+•	dotted: Đường viền chấm.
+•	dashed: Đường viền gạch ngang.
+•	double: Đường viền kép.
+•	groove: Đường viền lõm vào.
+•	ridge: Đường viền nổi lên.
+•	inset: Đường viền bên trong.
+•	outset: Đường viền bên ngoài.
+*/

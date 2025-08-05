@@ -1,0 +1,34 @@
+ul {
+    list-style: none;
+}
+
+/* list-style: định dạng ký hiệu đầu dòng
+selector {list-style: <list-style-type> (Kiểu ký hiệu đầu dòng:disc, circle, square, decimal, lower-roman, none,...)
+                      <list-style-position> (Vị trí của ký hiệu so với nội dung:inside, outside)
+                      <list-style-image> (Dùng ảnh làm bulletbullet: url('icon.png'))
+                      <list-style: none;> (mất ký hiệu đầu dòng)*/
+li {
+    background-color: #cecece;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* màu nền
+Khoảng cách các phần tử-dưới (tách thành các phần riêng)
+độ to của ô (phần tử)*/
+
+li:hover {
+    background-color: gray;
+}
+
+/* selector (li):pseudo-class (hover) {}
+- pseudo-class: chọn và định dạng các phần tử HTML dựa trên trạng thái hoặc vị trí của chúng, mà không cần phải thêm class hay id trong HTML
+:hover Khi chuột di chuyển lên phần tử          a:hover { color: red; }
+:active	Khi phần tử đang được nhấn (clicked)	button:active { background: yellow; }
+
+:first-child	Chọn phần tử đầu tiên trong cha	      p:first-child { font-weight: bold; }
+:last-child	   Chọn phần tử cuối cùng trong cha	     li:last-child { color: green; }
+:nth-child(n)	Chọn phần tử con thứ n	             li:nth-child(2) { color: red; }
+
+:focus	Khi phần tử được focus (thường là input)	input:focus { border-color: blue; }
+:checked	Áp dụng cho input đã được chọn (radio/checkbox)	     input:checked + label { font-weight: bold; }*/

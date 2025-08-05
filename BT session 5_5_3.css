@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* căn giữa ngang */
+    align-items: center;
+    /* căn giữa dọc */
+    background-color: #f0f0f0;
+}
+
+.grow {
+    background-color: #3498db;
+    color: white;
+    padding: 200px 400px;
+    font-size: 50px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+    /* ✅ phóng to 110% */
+}

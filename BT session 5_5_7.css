@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* căn giữa ngang */
+    align-items: center;
+    /* căn giữa dọc */
+    background-color: #f0f0f0;
+}
+
+.insert-border {
+    padding: 200px 400px;
+    font-size: 50px;
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 20px;
+    transition: border 0.4s ease;
+
+    border: 5px solid transparent;
+    /* 🔍 ban đầu không có viền */
+}
+
+.insert-border:hover {
+    border: 6px solid #3498db;
+    /* ✅ viền hiện ra */
+}

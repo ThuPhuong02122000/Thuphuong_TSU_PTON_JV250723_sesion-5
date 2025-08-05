@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* căn giữa ngang */
+    align-items: center;
+    /* căn giữa dọc */
+    background-color: #f0f0f0;
+}
+
+.fade-box {
+    opacity: 0.4;
+    transition: opacity 0.5s ease;
+
+    padding: 400px 800px;
+    background-color: red;
+    color: azure;
+    font-size: 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.fade-box:hover {
+    opacity: 1;
+}

@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* căn giữa ngang */
+    align-items: center;
+    /* căn giữa dọc */
+    background-color: #f0f0f0;
+}
+
+.change-color {
+    background-color: blue;
+    color: white;
+    padding: 200px 400px;
+    font-size: 50px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+.change-color:hover {
+    background-color: orange;
+}
